@@ -4,10 +4,12 @@
 目标：在七天内快速入门Vue，并通过实战项目不断提升。<br>
 📅学习计划<br>
 Day1 个人名片（Vue基础，ref，插值语法）<br>
+使用 Vue3 的响应式变量 (`ref`)
+- 模板使用插值语法 `{{ }}` 绑定数据  
 <details>
   <summary>点击展开代码</summary>
 
-```vue
+vue
 <script setup>
 import { ref } from 'vue'
 const name = ref('小明')
